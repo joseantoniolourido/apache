@@ -9,4 +9,7 @@ end
 service 'httpd' do
  action [ :enable, :start ]
 end
+service 'iptables' do
+ action [ :enable, :stop ]
+end
 

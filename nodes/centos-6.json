@@ -58,14 +58,14 @@
     "filesystem": {
       "/dev/mapper/vg_centos6-lv_root": {
         "kb_size": "14225776",
-        "kb_used": "2144532",
-        "kb_available": "11351952",
+        "kb_used": "2145748",
+        "kb_available": "11350736",
         "percent_used": "16%",
         "mount": "/",
         "total_inodes": "912128",
-        "inodes_used": "81984",
-        "inodes_available": "830144",
-        "inodes_percent_used": "9%",
+        "inodes_used": "82240",
+        "inodes_available": "829888",
+        "inodes_percent_used": "10%",
         "fs_type": "ext4",
         "mount_options": [
           "rw"
@@ -196,25 +196,25 @@
       "processor": "x86_64",
       "os": "GNU/Linux",
       "modules": {
-        "xt_conntrack": {
-          "size": "2776",
+        "nf_conntrack_ipv4": {
+          "size": "9186",
+          "refcount": "2"
+        },
+        "nf_defrag_ipv4": {
+          "size": "1483",
           "refcount": "1"
         },
-        "ipt_MASQUERADE": {
-          "size": "2338",
+        "iptable_filter": {
+          "size": "2793",
           "refcount": "1"
         },
-        "iptable_nat": {
-          "size": "5923",
+        "ip_tables": {
+          "size": "17895",
           "refcount": "1"
         },
         "ipt_addrtype": {
           "size": "2153",
-          "refcount": "2"
-        },
-        "nf_nat": {
-          "size": "22676",
-          "refcount": "2"
+          "refcount": "0"
         },
         "bridge": {
           "size": "85706",
@@ -253,22 +253,6 @@
           "size": "2383",
           "refcount": "2"
         },
-        "nf_conntrack_ipv4": {
-          "size": "9186",
-          "refcount": "6"
-        },
-        "nf_defrag_ipv4": {
-          "size": "1483",
-          "refcount": "1"
-        },
-        "iptable_filter": {
-          "size": "2793",
-          "refcount": "1"
-        },
-        "ip_tables": {
-          "size": "17895",
-          "refcount": "2"
-        },
         "ip6t_REJECT": {
           "size": "4372",
           "refcount": "2"
@@ -287,7 +271,7 @@
         },
         "nf_conntrack": {
           "size": "79537",
-          "refcount": "7"
+          "refcount": "3"
         },
         "ip6table_filter": {
           "size": "2889",
@@ -419,23 +403,23 @@
         "surplus": "0"
       },
       "total": "1020052kB",
-      "free": "556480kB",
-      "buffers": "23988kB",
-      "cached": "209140kB",
-      "active": "274968kB",
-      "inactive": "88132kB",
+      "free": "543516kB",
+      "buffers": "26380kB",
+      "cached": "215764kB",
+      "active": "280952kB",
+      "inactive": "91204kB",
       "dirty": "24kB",
       "writeback": "0kB",
-      "anon_pages": "129988kB",
-      "mapped": "20388kB",
-      "slab": "77892kB",
-      "slab_reclaimable": "20796kB",
-      "slab_unreclaim": "57096kB",
-      "page_tables": "6320kB",
+      "anon_pages": "130068kB",
+      "mapped": "20664kB",
+      "slab": "81844kB",
+      "slab_reclaimable": "24624kB",
+      "slab_unreclaim": "57220kB",
+      "page_tables": "6344kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "510024kB",
-      "committed_as": "336084kB",
+      "committed_as": "336452kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "7340kB",
       "vmalloc_chunk": "34359717288kB",
@@ -740,16 +724,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "272782",
-              "packets": "2868",
+              "bytes": "494605",
+              "packets": "4397",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "7539932",
-              "packets": "10805",
+              "bytes": "9699812",
+              "packets": "43862",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -3599,13 +3583,13 @@
       "by_device": {
         "/dev/mapper/vg_centos6-lv_root": {
           "kb_size": "14225776",
-          "kb_used": "2144532",
-          "kb_available": "11351952",
+          "kb_used": "2145748",
+          "kb_available": "11350736",
           "percent_used": "16%",
           "total_inodes": "912128",
-          "inodes_used": "81984",
-          "inodes_available": "830144",
-          "inodes_percent_used": "9%",
+          "inodes_used": "82240",
+          "inodes_available": "829888",
+          "inodes_percent_used": "10%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -3792,13 +3776,13 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "14225776",
-          "kb_used": "2144532",
-          "kb_available": "11351952",
+          "kb_used": "2145748",
+          "kb_available": "11350736",
           "percent_used": "16%",
           "total_inodes": "912128",
-          "inodes_used": "81984",
-          "inodes_available": "830144",
-          "inodes_percent_used": "9%",
+          "inodes_used": "82240",
+          "inodes_available": "829888",
+          "inodes_percent_used": "10%",
           "fs_type": "rootfs",
           "mount_options": [
             "rw"
@@ -4023,14 +4007,14 @@
         "/dev/mapper/vg_centos6-lv_root,/": {
           "device": "/dev/mapper/vg_centos6-lv_root",
           "kb_size": "14225776",
-          "kb_used": "2144532",
-          "kb_available": "11351952",
+          "kb_used": "2145748",
+          "kb_available": "11350736",
           "percent_used": "16%",
           "mount": "/",
           "total_inodes": "912128",
-          "inodes_used": "81984",
-          "inodes_available": "830144",
-          "inodes_percent_used": "9%",
+          "inodes_used": "82240",
+          "inodes_available": "829888",
+          "inodes_percent_used": "10%",
           "fs_type": "ext4",
           "mount_options": [
             "rw"
@@ -4265,11 +4249,11 @@
         }
       }
     },
-    "ohai_time": 1496935796.9922554,
-    "uptime_seconds": 940,
-    "uptime": "15 minutes 40 seconds",
-    "idletime_seconds": 897,
-    "idletime": "14 minutes 57 seconds",
+    "ohai_time": 1496942817.0241766,
+    "uptime_seconds": 7960,
+    "uptime": "2 hours 12 minutes 40 seconds",
+    "idletime_seconds": 7899,
+    "idletime": "2 hours 11 minutes 39 seconds",
     "shells": [
       "/bin/sh",
       "/bin/bash",
